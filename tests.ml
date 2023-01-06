@@ -191,10 +191,10 @@ let quitter () =
 sorties des fonctions *)
 let menu () =
   let dimensions = " 690x460" in
-  let mat = load_matrix "menu.png" in
+  let mat = load_matrix "img/menu.png" in
   Graphics.open_graph dimensions;
   (* Affichage de l'écran de chagement avant l'appel de chaques fonctions *)
-  let charg () = Graphics.draw_image (to_graphics (load_matrix "chargement.png")) 0 0 in
+  let charg () = Graphics.draw_image (to_graphics (load_matrix "img/chargement.png")) 0 0 in
   let flag = ref false in
   while not !flag do
     Graphics.draw_image (to_graphics mat) 0 0;    
