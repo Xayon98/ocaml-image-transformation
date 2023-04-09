@@ -1,7 +1,7 @@
 # ocaml-image-transformation
 Ce projet a été fait a partir d'un devoir d'informatique du lycée Thiers
 
-Les fonctions ecrites permettent de manipuler des matrices d'images en noir et blanc  et d'ecrire des fonctions pour effectuer des transformations sur les images
+Les fonctions écrites permettent de manipuler des matrices d'images en noir et blanc  et d'écrire des fonctions pour effectuer des transformations sur les images
 
 Des images de test `flamantNB.png` , `guepiersNB.png` et `rueNB.png` sont mis a disposition pour tester les fonctions 
 
